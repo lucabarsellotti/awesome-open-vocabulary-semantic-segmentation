@@ -1,4 +1,4 @@
-# Open Vocabulary/Zero Shot Semantic Segmentation Papers
+# Open Vocabulary Semantic Segmentation Papers
 
 A curated list of resources on Open Vocabulary and Zero Shot Semantic Segmentation methods.
 
@@ -6,6 +6,12 @@ A curated list of resources on Open Vocabulary and Zero Shot Semantic Segmentati
 
 ### Conference Papers
 
++ **SegCLIP**: Huaishao Luo, Junwei Bao, Youzheng Wu, Xiaodong He, Tianrui Li. "Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation". ICML (2023). [[paper]](https://arxiv.org/abs/2211.14813) [[code]](https://github.com/ArrowLuo/SegCLIP)
++ **SAN**: Mengde Xu, Zheng Zhang, Fangyun Wei, Han Hu, Xiang Bai. "Side Adapter Network for Open-Vocabulary Semantic Segmentation". CVPR Highlight (2023). [[paper](https://arxiv.org/pdf/2302.12242)] [[code](https://github.com/MendelXu/SAN)]
++ **OVSegmentor**: Jilan Xu, Junlin Hou, Yuejie Zhang, Rui Feng, Yi Wang, Yu Qiao, Weidi Xie. "Learning Open-vocabulary Semantic Segmentation Models From Natural Language Supervision". CVPR (2023). [[paper](https://arxiv.org/pdf/2301.09121)] [[project](https://jazzcharles.github.io/OVSegmentor/)]
++ **X-Decoder**: Xueyan Zou, Zi-Yi Dou, Jianwei Yang, Zhe Gan, Linjie Li, Chunyuan Li, Xiyang Dai, Harkirat Behl, Jianfeng Wang, Lu Yuan, Nanyun Peng, Lijuan Wang, Yong Jae Lee, Jianfeng Gao. "Generalized Decoding for Pixel, Image and Language". CVPR (2023). [[paper](https://arxiv.org/pdf/2212.11270.pdf) [[project]](https://x-decoder-vl.github.io/) [[video]](https://www.youtube.com/watch?v=wYp6vmyolqE) [[demo]](https://huggingface.co/spaces/xdecoder/Demo)
++ **PACL**: Jishnu Mukhoti, Tsung-Yu Lin, Omid Poursaeed, Rui Wang, Ashish Shah, Philip H.S. Torr, Ser-Nam Lim. "Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning". CVPR Highlight (2023). [[paper]](https://arxiv.org/abs/2212.04994)
++ **OVSeg**: Feng Liang, Bichen Wu, Xiaoliang Dai, Kunpeng Li, Yinan Zhao, Hang Zhang, Peizhao Zhang, Peter Vajda, Diana Marculescu. "Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP". CVPR (2023). [[paper]](https://arxiv.org/abs/2210.04150) [[code]](https://github.com/facebookresearch/ov-seg) [[project]](https://jeff-liangf.github.io/projects/ovseg/) [[demo]](https://huggingface.co/spaces/facebook/ov-seg)
 + **ReCo**: Gyungin Shin, Weidi Xie, Samuel Albanie. "ReCo: Retrieve and Co-segment for Zero-Shot Transfer". NeurIPS (2022). [[paper]](https://arxiv.org/abs/2206.07045) [[code]](https://github.com/NoelShin/reco) [[video]](https://www.youtube.com/watch?v=IqQ4X3SfSM8) [[slides]](https://samuelalbanie.com/files/digest-slides/2022-10-reco.pdf)
 + **Fusioner**: Chaofan Ma, Yuhuan Yang, Yanfeng Wang, Ya Zhang, Weidi Xie. "Open-vocabulary Semantic Segmentation with Frozen Vision-Language Models". BMVC (2022).  [[paper]](https://bmvc2022.mpi-inf.mpg.de/0045.pdf) [[poster]](https://bmvc2022.mpi-inf.mpg.de/0045_poster.pdf) [[video]](https://bmvc2022.mpi-inf.mpg.de/0045_video.mp4) [[supplementary]](https://bmvc2022.mpi-inf.mpg.de/0045_supp.pdf)
 + **SimBaseline**: Mengde Xu, Zheng Zhang, Fangyun Wei, Yutong Lin, Yue Cao, Han Hu, Xiang Bai. "A Simple Baseline for Open-Vocabulary Semantic Segmentation with Pre-trained Vision-language Model". ECCV (2022). [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136890725.pdf) [[code]](https://github.com/MendelXu/zsseg.baseline)
@@ -21,10 +27,4 @@ A curated list of resources on Open Vocabulary and Zero Shot Semantic Segmentati
 
 ### Pre-Prints
 
-+ **SAN**: Mengde Xu, Zheng Zhang, Fangyun Wei, Han Hu, Xiang Bai. "Side Adapter Network for Open-Vocabulary Semantic Segmentation". arXiv (2023). [[paper](https://arxiv.org/pdf/2302.12242)] [[code](https://github.com/MendelXu/SAN)]
-+ **OVSegmentor**: Jilan Xu, Junlin Hou, Yuejie Zhang, Rui Feng, Yi Wang, Yu Qiao, Weidi Xie. "Learning Open-vocabulary Semantic Segmentation Models From Natural Language Supervision". arXiv (2023). [[paper](https://arxiv.org/pdf/2301.09121)] [[project](https://jazzcharles.github.io/OVSegmentor/)]
-+ **X-Decoder**: Xueyan Zou, Zi-Yi Dou, Jianwei Yang, Zhe Gan, Linjie Li, Chunyuan Li, Xiyang Dai, Harkirat Behl, Jianfeng Wang, Lu Yuan, Nanyun Peng, Lijuan Wang, Yong Jae Lee, Jianfeng Gao. "Generalized Decoding for Pixel, Image and Language". arXiv (2022). [[paper](https://arxiv.org/pdf/2212.11270.pdf) [[project]](https://x-decoder-vl.github.io/) [[video]](https://www.youtube.com/watch?v=wYp6vmyolqE) [[demo]](https://huggingface.co/spaces/xdecoder/Demo)
-+ **PACL**: Jishnu Mukhoti, Tsung-Yu Lin, Omid Poursaeed, Rui Wang, Ashish Shah, Philip H.S. Torr, Ser-Nam Lim. "Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning". arXiv (2022). [[paper]](https://arxiv.org/abs/2212.04994)
-+ **SegCLIP**: Huaishao Luo, Junwei Bao, Youzheng Wu, Xiaodong He, Tianrui Li. "Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation". arXiv (2022). [[paper]](https://arxiv.org/abs/2211.14813) [[code]](https://github.com/ArrowLuo/SegCLIP)
-+ **OVSeg**: Feng Liang, Bichen Wu, Xiaoliang Dai, Kunpeng Li, Yinan Zhao, Hang Zhang, Peizhao Zhang, Peter Vajda, Diana Marculescu. "Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP". arXiv (2022). [[paper]](https://arxiv.org/abs/2210.04150) [[code]](https://github.com/facebookresearch/ov-seg) [[project]](https://jeff-liangf.github.io/projects/ovseg/) [[demo]](https://huggingface.co/spaces/facebook/ov-seg)
 + Wei Yin, Yifan Liu, Chunhua Shen, Anton van den Hengel, Baichuan Sun. "The devil is in the labels: Semantic segmentation from sentences". arXiv (2022). [[paper]](https://arxiv.org/abs/2202.02002)
